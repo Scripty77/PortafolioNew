@@ -1,0 +1,23 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  
+}
+
+body {
+  background-image: url("./assets/pattern_japanese.png"); /* Ruta relativa al archivo PNG */
+  background-size: cover; /* Ajusta el tamaño del fondo para cubrir toda la pantalla */
+  background-repeat: no-repeat; /* Evita que el fondo se repita */
+  background-position: center; /* Centra la imagen */
+  color: #E8CBAF; /* Texto claro */
+  margin: 0;
+  padding: 0;
+  font-family: 'MyFont';
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('./assets/SourGummy-VariableFont_wdth\,wght.ttf') format('truetype');
+}
